@@ -1261,6 +1261,38 @@
         "blob/95e8b0ac9b82d845a2af721b893e9ab24bacad0d.nq.gz",
         "blob/dc0f9df63c93aa8922ad53de3415e6780862acb8.nq.gz",
         "blob/0b935f1eacd04e2c6923ece763fa5d9fcfeaa9ba.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/42ef6557a9b88cfc277eb79ddb980e1c62add144.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/42ef6557a9b88cfc277eb79ddb980e1c62add144.nq.gz",
+      "repolex": "aggregate/repolex/42ef6557a9b88cfc277eb79ddb980e1c62add144.nq.gz",
+      "dep": "dep/42ef6557a9b88cfc277eb79ddb980e1c62add144.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "82.0.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "5a13876673a41e3cd21d4d6e587f53d0fb4fd8e5",
+          "githubTag": "v82.0.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/_distutils/command/install_data.py"
+        },
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "2.4.4",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubCommit": "be93fe2960dbf49b4647f5783c66d967fb2c65b5",
+          "githubTag": "v2.4.4",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/numpy/__init__.py"
+        }
       ]
     }
   ],
